@@ -1,0 +1,213 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header_top_line {
+    padding-right: 0;
+  }
+  .header_logo {
+    margin-left: 0;
+  }
+  .header_block_inform {
+    padding-right: 0;
+  }
+  nav {
+    padding-right: 20px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header_top_line {
+    padding-bottom: 10px;
+  }
+  .header_contacs_block span {
+    display: block;
+  }
+  .header_contacs_block span + span {
+    margin-left: 0px;
+  }
+  .header_logo {
+    display: none;
+  }
+  .header_logo_mobile {
+    margin-top: 7px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .header_block_inform {
+    display: inline-block;
+  }
+  .btn {
+    display: block;
+  }
+  .main_style {
+    text-align: center;
+  }
+  nav {
+    margin-top: 0;
+    display: none;
+    padding-right: 0;
+  }
+  nav li {
+    display: block;
+    text-align: center;
+  }
+  nav li:first-child {
+    border-top: 1px solid #151515;
+  }
+  nav li + li {
+    margin-left: 0;
+  }
+  nav a {
+    padding-bottom: 0;
+    display: block;
+    padding: 13px;
+    border-bottom: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    border-bottom: 1px solid #151515;
+  }
+  nav a:hover {
+    border-bottom: 1px solid #151515;
+    color: #fff;
+    background-color: #151515;
+  }
+  nav .active {
+    border-bottom: 1px solid #151515;
+    color: #fff;
+    background-color: #151515;
+  }
+  .slider {
+    display: none;
+  }
+  .s_purchase_item {
+    width: 50%;
+  }
+  .s_purchase_item {
+    margin-bottom: 20px;
+  }
+  .s_contacs {
+    background-image: none;
+    background-color: #4B4545;
+  }
+  .s_contacs h2 {
+    color: #fff;
+    margin-top: 70px;
+    font-size: 30px;
+  }
+  .s_contacs h5 {
+    color: #fff;
+  }
+  .s_contacs_form {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  .footer_item_left {
+    text-align: center;
+  }
+  .catalog {
+    margin-top: 25px;
+  }
+  .catalog_item {
+    width: 32.5%;
+  }
+  .card_product_img {
+    float: none;
+    margin: 0 auto;
+  }
+  .card_product_options {
+    float: none;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .catalog_item {
+    width: 49.3%;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .header_block_inform {
+    margin-top: 30px;
+  }
+  .header_block_inform a {
+    margin-right: 0;
+    display: block;
+    float: none;
+    margin-top: 20px;
+  }
+  .header_block_inform form {
+    float: none;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+  .s_purchase_item {
+    width: 100%;
+  }
+  .s_purchase img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .catalog_item {
+    width: 75%;
+    float: none;
+    margin: 15px auto 0;
+  }
+  .card .mfp-close {
+    font-size: 40px;
+  }
+  .card_product_img {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .card_small_img {
+    float: none;
+  }
+  .card_small_img + .card_small_img {
+    margin-left: 0;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 360px) {
+  .header_social_icon a {
+    margin-right: 10px;
+  }
+  .s_contacs h2 {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  .s_contacs_form {
+    margin-top: 30px;
+  }
+  .catalog_item {
+    width: 100%;
+  }
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  nav {
+    display: block !important;
+  }
+  .catalog_product_desc {
+    -webkit-transform: translateY(160px);
+        -ms-transform: translateY(160px);
+            transform: translateY(160px);
+  }
+  .catalog_item:hover .catalog_product_desc {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/* Large Devices, Wide Screens */
